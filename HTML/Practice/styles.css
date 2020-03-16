@@ -1,0 +1,226 @@
+header
+{
+
+    height: 64px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.header_title
+{
+    font-family: "Bebas Neue";
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    color: #a2a2a2;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    margin-top: 23px;
+}
+
+.material-icons {
+
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: #a2a2a2;
+    margin-bottom: 26px;
+    margin-top: 26px;
+    margin-right: 27px;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+/* article1 */
+
+article
+{ 
+    display: flex;
+}
+.article1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e7e7;
+  
+}
+
+.art1_pretitle
+{   
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+}
+
+.art1_title
+{
+    justify-content: center;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: #000000;
+    margin-left: 50 px;
+    margin-right: 50 px;
+    margin-bottom: 50 px;
+}
+
+.art1_button
+{
+    background-color: transparent;
+    border-radius: 3px;
+    border: solid 2px #1c6698;   
+    margin-bottom: 83px;
+    width: 160px;
+}
+
+.art1_button p
+{
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #1c6698;
+}
+
+/* article2 */
+
+.article2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+
+}
+
+.art2_aboutme
+{
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.67px;
+    text-align: center;
+    color: #a2a2a2;
+    margin-top: 60px;
+    margin-bottom: 23px;
+}
+
+.art2_paragraph
+{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #a2a2a2;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.art2_paragraph1
+{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #a2a2a2;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.myvideo
+{
+    width: 90%;
+    height: auto;  
+}
+
+/* article3 */
+.article3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e7e7;
+}
+.article3_h2
+{
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.67px;
+    text-align: center;
+    color: #000000;
+}
+
+footer
+{
+    height: 104px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: #000000;
+}
+
+.footer_h2
+{
+    font-family: "Bebas Neue";
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    color: #a2a2a2;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    margin-top: 23px;
+    
+}

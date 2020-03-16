@@ -1,0 +1,21 @@
+<h2 class="wrapper">My Store</h2>
+
+<div *ngFor="let product of products" class="wrapper">
+
+    <h2>
+        <a [title]="product.name + ' details'">
+            {{ product.name }}
+        </a>
+    </h2>
+
+    <img [src]="product.image">
+
+    <p *ngIf="product.description">
+        Description: {{ product.description }}
+    </p>
+
+    <button>
+        Add to
+    </button>
+
+</div>
